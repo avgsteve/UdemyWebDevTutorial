@@ -1,0 +1,93 @@
+boilerplate 樣板  意思
+
+https://www.google.com/search?newwindow=1&ei=7_w1Xfa8LtSJr7wP_bG20A4&q=boilerplate+%E6%84%8F%E6%80%9D&oq=boilerplate+%E6%84%8F%E6%80%9D&gs_l=psy-ab.3..0j0i8i30l2j0i5i30.1818.3347..3633...0.0..0.109.464.3j2......0....1..gws-wiz.......0i71j0i67j0i20i263.YkaLuCNGuUs&ved=&uact=5
+
+
+UFT-8　列表
+http://www.fileformat.info/info/charset/UTF-8/list.htm
+
+有趣的各國unicode列表 包含emoji
+https://unicode-table.com/en/
+
+亂碼 Moji bake
+https://en.wikipedia.org/wiki/Mojibake
+
+Unicode 推薦文章
+https://www.joelonsoftware.com/2003/10/08/the-absolute-minimum-every-software-developer-absolutely-positively-must-know-about-unicode-and-character-sets-no-excuses/
+
+W3 Schools meta tag
+https://www.w3schools.com/tags/tag_meta.asp
+
+
+Meta tags 解釋
+Google搜尋 MDN 在網路上的結果會show:
+https://www.google.com/search?q=mdn&oq=mdn&aqs=chrome..69i57j0l5.487j0j4&sourceid=chrome&ie=UTF-8
+
+MDN Web Docs
+https://developer.mozilla.org/en-US/
+The MDN Web Docs site provides information about Open Web technologies including HTML, CSS, and APIs for both Web sites and progressive web apps.
+
+檢視原始碼的第113行:
+<meta property="og:description" content="The MDN Web Docs site provides information about Open Web technologies including HTML, CSS, and APIs for both Web sites and progressive web apps. It also has some developer-oriented documentation for Mozilla products, such as Firefox Developer Tools.">
+
+
+斜體字 emphasis <em> vs 斜體 <i>的 標籤用法
+https://developer.mozilla.org/en-US/docs/Web/HTML/Element/em
+
+https://developer.mozilla.org/en-US/docs/Web/HTML/Element/em#%3Ci%3E_vs._%3Cem%3E
+New developers are often confused at seeing multiple elements that produce similar results. <em> and <i> are a common example, since they both italicize text. What's the difference? Which should you use?
+
+By default, the visual result is the same. However, the semantic meaning is different. The <em> element represents stress emphasis of its contents, while the <i> element represents text that is set off from the normal prose, such a foreign word, fictional character thoughts, or when the text refers to the definition of a word instead of representing its semantic meaning. (The title of a work, such as the name of a book or movie, should use <cite>.)
+
+This means the right one to use depends on the situation. Neither is for purely decorational purposes, that's what CSS styling is for.
+
+An example for <em> could be: "Just do it already!", or: "We had to do something about it". A person or software reading the text would pronounce the words in italics with an emphasis, using verbal stress.
+
+An example for <i> could be: "The Queen Mary sailed last night". Here, there is no added emphasis or importance on the word "Queen Mary". It is merely indicated that the object in question is not a queen named Mary, but a ship named Queen Mary. Another example for <i> could be: "The word the is an article".
+
+
+
+
+列表 List的用法
+
+UL unordered list
+https://developer.mozilla.org/en-US/docs/Web/HTML/Element/ul
+
+The <ul> element is for grouping a collection of items that do not have a numerical ordering, and their order in the list is meaningless. Typically, unordered-list items are displayed with a bullet, which can be of several forms, like a dot, a circle or a squared. The bullet style is not defined in the HTML description of the page, but in its associated CSS, using the list-style-type property.
+
+
+<ul>
+    <li>Milk</li>
+    <li>Cheese
+        <ul>
+            <li>Blue cheese</li>
+            <li>Feta</li>
+        </ul>
+    </li>
+</ul>
+
+  -Milk
+  -Cheese
+    -Blue cheese
+    -Feta
+
+
+圖片 img 的用法  18. HTML Links and Anchor Tags
+ https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img
+
+ 超連結 Hyperlink
+ https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Creating_hyperlinks
+
+HTML cheatsheet
+https://web.stanford.edu/group/csp/cs21/htmlcheatsheet.pdf
+
+
+表格 table 的用法
+https://developer.mozilla.org/en-US/docs/Web/HTML/Element/table
+
+
+表格 form 的用法 25. HTML Forms
+https://developer.mozilla.org/en-US/docs/Web/HTML/Element/form
+
+  -submit bottom manual
+  https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input
